@@ -1,0 +1,33 @@
+{
+  "name": "yieldpay-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ston-fi/api": "^0.32.0",
+    "@ton/core": "^0.62.0",
+    "@ton/ton": "^15.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "tonstakers-sdk": "^0.0.19-development",
+    "zod": "^3.25.56"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.15.17",
+    "@typescript-eslint/parser": "^8.46.1",
+    "eslint": "^9.26.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
+

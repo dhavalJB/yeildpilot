@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+out/
+**/.next/
+
+# Build / dist
+dist/
+build/
+**/dist/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Vercel / deploy
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing / coverage
+coverage/
